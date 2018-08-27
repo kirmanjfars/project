@@ -1,0 +1,65 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "lorem",
+      "body": "lorem ipsum",
+      "userId": 1,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "title": "Kurdistan",
+      "body": "Lorem ipsum dolor sit amet, in rhoncus vestibulum auctor diam justo, ligula mauris nibh quis et erat, netus sed libero praesent. Duis massa, velit malesuada aliquet vel, purus viverra suspendisse sem dictum et. In integer, sit scelerisque ante sed, per donec non, vel eleifend suspendisse, et arcu. Facilisi varius. Scelerisque tempus justo, pellentesque tellus dapibus duis ante, aliquet lorem id eget quisque, vel feugiat arcu, neque ridiculus luctus etiam. In eros amet, at nisl suspendisse elementum porta duis, adipiscing fusce magna turpis eros a.",
+      "userId": "2",
+      "categoryId": "2"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "body": "yes its nice",
+      "postId": "2",
+      "userId": "2"
+    },
+    {
+      "id": 3,
+      "body": "hey ur design r wonderful",
+      "postId": "2",
+      "userId": "3"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "typicode",
+      "email": "user@example.com"
+    },
+    {
+      "name": "kirmanj",
+      "email": "kirmanj@gmail",
+      "id": 2
+    },
+    {
+      "name": "sumaya",
+      "email": "sumaya@gmail.com",
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Uncatagorized"
+    },
+    {
+      "name": "category 1",
+      "id": 2
+    }
+  ]
+}
